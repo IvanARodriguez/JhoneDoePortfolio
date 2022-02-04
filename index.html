@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Jhon Doe | Portfolio</title>
 </head>
 <body>
     <!-- Header -->
     <header class="header_section">
-        <div class="logo">
-            <a href="/">JhonDoe</a>
-        </div>
         <nav class="nav_bar">
             <ul class="link_group">
                 <li><a href="" class="nav_link">About</a></li>
@@ -23,13 +21,96 @@
     </header>
 
     <!-- Main section -->
-    <main class="main_section">
+    <main class="main_section grid">
+        <!-- column one -->
+        <div class="profile_column card">
+            <div class="profile_picture">
+                <img src="images/profile.jpeg" alt="Profile picture">
+            </div>
+            <div class="profile_info">
+                <h1>Jhon Doe</h1>
+                <p>San Francisco | CA</p>
+                <p>jhonedoe@multimedia.com</p>
+                <p>(800) 578-3028</p>
+                <div class="social_icons">
 
+                </div>
+            </div>
+        </div>
+
+        <!-- column two -->
+        <div class="experience_column card">
+            <h1 class="col_title" >Experience</h1>
+            <div class="experience_wrapper">
+                <div class="experience_card">
+                    <img src="images/google_2015.svg" alt="google logo" class="experience_logo">
+                    <div class="experience_job_details">
+                        <h2 class="company_title">Google Analytics</h2>
+                        <p class="job_title">Software Engineer</p>
+                        <p class="job_lenght">May 2009 | Dec 2021</p>
+                    </div>
+                </div>
+                <div class="experience_card">
+                    <img src="images/Tesla_Inc.-Wordmark-Black-Logo.wine-6bbe293a.webp" alt="google logo" class="experience_logo">
+                    <div class="experience_job_details">
+                        <h2 class="company_title">Tesla Logistics</h2>
+                        <p class="job_title">Project Manager</p>
+                        <p class="job_lenght">jan 2005 | Apr 2009</p>
+                    </div>
+                </div>
+                <div class="experience_card">
+                    <img src="images/meta-logo.png" alt="google logo" class="experience_logo">
+                    <div class="experience_job_details">
+                        <h2 class="company_title">Meta</h2>
+                        <p class="job_title">Software Engineer</p>
+                        <p class="job_lenght">Jan 2002 | Dec 2004</p>
+                    </div>
+                </div>
+                <div class="experience_card">
+                    <img src="images/myspace.png" alt="google logo" class="experience_logo">
+                    <div class="experience_job_details">
+                        <h2 class="company_title">Myspace</h2>
+                        <p class="job_title">Content Manager</p>
+                        <p class="job_lenght">Jul 2000 | Jan 2002</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- column three -->
+        <div class="card education_column">
+            <h1 class="col_title" >Education</h1>
+            <div class="education_column_grid">
+                <div class="edu_card">
+                    <h2>Harvard University</h2>
+                    <h3>Bachelor in Computer Sciense</h3>
+                    <p>1992 | 1996</p>
+                </div>
+                
+                <div class="edu_card">
+                    <h2>ASU</h2>
+                    <h3>Master in Software Engineer</h3>
+                    <p>1998 | 2001</p>
+                </div>
+
+                <div class="edu_card">
+                    <h2>GenerationUSA</h2>
+                    <h3>Web developer</h3>
+                    <p>1992 | 1996</p>
+                </div>
+
+                <div class="edu_card">
+                    <h2>Harvard University</h2>
+                    <h3>Bachelor in Computer Sciense</h3>
+                    <p>1992 | 1996</p>
+                </div>
+            </div>
+        </div>
     </main>
 
     <!-- Footer section-->
     <footer class="footer_section">
-
+        <p>Jhon Doe, San Francisco, CA, All Right Reserved</p>
     </footer>
 </body>
 </html>
